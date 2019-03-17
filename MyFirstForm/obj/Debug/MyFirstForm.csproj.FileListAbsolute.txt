@@ -1,0 +1,15 @@
+C:\Users\askoo\Documents\Visual Studio\Playground\MyFirstForm\MyFirstForm\bin\Debug\MyFirstForm.exe.config
+C:\Users\askoo\Documents\Visual Studio\Playground\MyFirstForm\MyFirstForm\bin\Debug\MyFirstForm.exe
+C:\Users\askoo\Documents\Visual Studio\Playground\MyFirstForm\MyFirstForm\bin\Debug\MyFirstForm.pdb
+C:\Users\askoo\Documents\Visual Studio\Playground\MyFirstForm\MyFirstForm\obj\Debug\MyFirstForm.csprojAssemblyReference.cache
+C:\Users\askoo\Documents\Visual Studio\Playground\MyFirstForm\MyFirstForm\obj\Debug\MainWindow.g.cs
+C:\Users\askoo\Documents\Visual Studio\Playground\MyFirstForm\MyFirstForm\obj\Debug\App.g.cs
+C:\Users\askoo\Documents\Visual Studio\Playground\MyFirstForm\MyFirstForm\obj\Debug\MyFirstForm_MarkupCompile.cache
+C:\Users\askoo\Documents\Visual Studio\Playground\MyFirstForm\MyFirstForm\obj\Debug\MyFirstForm_MarkupCompile.lref
+C:\Users\askoo\Documents\Visual Studio\Playground\MyFirstForm\MyFirstForm\obj\Debug\MainWindow.baml
+C:\Users\askoo\Documents\Visual Studio\Playground\MyFirstForm\MyFirstForm\obj\Debug\MyFirstForm.g.resources
+C:\Users\askoo\Documents\Visual Studio\Playground\MyFirstForm\MyFirstForm\obj\Debug\MyFirstForm.Properties.Resources.resources
+C:\Users\askoo\Documents\Visual Studio\Playground\MyFirstForm\MyFirstForm\obj\Debug\MyFirstForm.csproj.GenerateResource.cache
+C:\Users\askoo\Documents\Visual Studio\Playground\MyFirstForm\MyFirstForm\obj\Debug\MyFirstForm.csproj.CoreCompileInputs.cache
+C:\Users\askoo\Documents\Visual Studio\Playground\MyFirstForm\MyFirstForm\obj\Debug\MyFirstForm.exe
+C:\Users\askoo\Documents\Visual Studio\Playground\MyFirstForm\MyFirstForm\obj\Debug\MyFirstForm.pdb

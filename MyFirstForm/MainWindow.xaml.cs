@@ -24,5 +24,37 @@ namespace MyFirstForm
         {
             InitializeComponent();
         }
+
+        private void ButtonToSumNumbers_Click(object sender, RoutedEventArgs e)
+        {
+            int firstNumber = Convert.ToInt32(firstNumberInput.Text);
+            int secondNumber = Convert.ToInt32(secondNumberInput.Text);
+            int result = firstNumber + secondNumber;
+            resultOutput.Content = result.ToString();
+        }
+
+        private void ButtonToDivideNumbers_Click(object sender, RoutedEventArgs e)
+        {
+            int firstNumber = Convert.ToInt32(firstNumberInput.Text);
+            int secondNumber = Convert.ToInt32(secondNumberInput.Text);
+            double result = Convert.ToDouble(firstNumber) / Convert.ToDouble(secondNumber);
+            resultOutput.Content = result.ToString();
+        }
+
+        private void ButtonToSubtractNumbers_Click(object sender, RoutedEventArgs e)
+        {
+            int firstNumber = Convert.ToInt32(firstNumberInput.Text);
+            int secondNumber = Convert.ToInt32(secondNumberInput.Text);
+            int result = firstNumber - secondNumber;
+            resultOutput.Content = result.ToString();
+        }
+
+        private void ButtonToMultiplyNumbers_Click(object sender, RoutedEventArgs e)
+        {
+            int firstNumber = Convert.ToInt32(firstNumberInput.Text);
+            int secondNumber = Convert.ToInt32(secondNumberInput.Text);
+            int result = firstNumber * secondNumber;
+            resultOutput.Content = result.ToString();
+        }
     }
 }

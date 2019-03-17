@@ -5,20 +5,23 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:MyFirstForm"
         mc:Ignorable="d"
-        Title="Calculadora de Soma" Height="340" Width="540 ">
+        Title="Calculator Lite" Height="340" Width="540 ">
     <Grid Background="#FFE7C421">
         <Grid.ColumnDefinitions>
             <ColumnDefinition Width="6*"/>
             <ColumnDefinition Width="395*"/>
             <ColumnDefinition Width="133*"/>
         </Grid.ColumnDefinitions>
-        <TextBlock Margin="16.4,16,15.6,256.4" TextWrapping="Wrap" Text="Calculadora de Soma" Grid.Column="1" FontSize="22" Grid.ColumnSpan="2"/>
-        <Label Content="Informe o primeiro número:" Grid.Column="1" HorizontalAlignment="Left" Margin="16.4,82,0,0" VerticalAlignment="Top"/>
-        <TextBox Grid.Column="1" HorizontalAlignment="Left" Height="23" Margin="22.4,108,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
-        <Label Content="Informe o segundo número:" Grid.Column="1" HorizontalAlignment="Left" Margin="16.4,148,0,0" VerticalAlignment="Top"/>
-        <TextBox Grid.Column="1" HorizontalAlignment="Left" Height="23" Margin="22.4,174,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
-        <Button Content="Somar números" Grid.Column="1" HorizontalAlignment="Left" Margin="22.6,225,0,0" VerticalAlignment="Top" Width="152" Height="27"/>
-        <Label Content="" Grid.Column="1" HorizontalAlignment="Left" Margin="281.6,148,0,0" VerticalAlignment="Top" Grid.ColumnSpan="2"/>
+        <TextBlock Margin="16.4,16,15.6,256.4" TextWrapping="Wrap" Text="Calculator Lite" Grid.Column="1" FontSize="22" Grid.ColumnSpan="2" FontWeight="SemiBold"/>
+        <Label Content="Type the first number:" Grid.Column="1" HorizontalAlignment="Left" Margin="16.4,82,0,0" VerticalAlignment="Top" FontWeight="Bold"/>
+        <TextBox x:Name="firstNumberInput" Grid.Column="1" HorizontalAlignment="Left" Height="23" Margin="22.4,108,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" MaxLength="4"/>
+        <Label Content="Type the second number:" Grid.Column="1" HorizontalAlignment="Left" Margin="16.4,148,0,0" VerticalAlignment="Top" FontWeight="Bold"/>
+        <TextBox x:Name="secondNumberInput" Grid.Column="1" HorizontalAlignment="Left" Height="23" Margin="22.4,174,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" MaxLength="4"/>
+        <Button x:Name="buttonToSumNumbers" Content="Add" Grid.Column="1" HorizontalAlignment="Left" Margin="22.6,225,0,0" VerticalAlignment="Top" Width="152" Height="27" Click="ButtonToSumNumbers_Click"/>
+        <Label x:Name="resultOutput" Content="" Grid.Column="1" HorizontalAlignment="Left" Margin="195.6,123,0,0" VerticalAlignment="Top" FontSize="48" FontWeight="Black" Grid.ColumnSpan="2" Width="316" HorizontalContentAlignment="Right"/>
+        <Button x:Name="buttonToDivideNumbers" Content="Divide" Grid.Column="1" HorizontalAlignment="Left" Margin="179.6,225,0,0" VerticalAlignment="Top" Width="152" Height="27" Click="ButtonToDivideNumbers_Click"/>
+        <Button x:Name="buttonToSubtractNumbers" Content="Subtract" Grid.Column="1" HorizontalAlignment="Left" Margin="21.6,257,0,0" VerticalAlignment="Top" Width="152" Height="27" Click="ButtonToSubtractNumbers_Click"/>
+        <Button x:Name="buttonToMultiplyNumbers" Content="Multiply" Grid.Column="1" HorizontalAlignment="Left" Margin="179.6,257,0,0" VerticalAlignment="Top" Width="152" Height="27" Click="ButtonToMultiplyNumbers_Click"/>
 
     </Grid>
 </Window>
